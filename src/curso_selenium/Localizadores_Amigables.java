@@ -22,7 +22,7 @@ public class Localizadores_Amigables {
 		//Encontrando elemento ubicado a la derecha de otro elemento
 		//driver_firefox.findElement(RelativeLocator.with(By.tagName("a")).toRightOf(By.linkText("Gmail"))).click();
 		
-		//Encontrando elemento ubicado
+		//Encontrando elemento concatenando
 		driver_firefox.findElement(RelativeLocator.with(By.tagName("a")).toLeftOf(By.className("gb_h")).toLeftOf(By.linkText("Gmail"))).click();
 		
 		driver_firefox.close();
