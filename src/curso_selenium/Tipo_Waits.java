@@ -17,7 +17,7 @@ public class Tipo_Waits {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.Edge.driver", "C:\\Users\\User\\OneDrive - sport enlace sas\\Documents\\Drivers\\edgedriver\\edgedriver.exe");
+		System.setProperty("webdriver.Firefox.driver", "C:\\Users\\User\\OneDrive - sport enlace sas\\Documents\\Drivers\\geckodriver\\geckodriver.exe");
 		WebDriver driver_firefox = new FirefoxDriver();
 		
 		//Implicit wait
