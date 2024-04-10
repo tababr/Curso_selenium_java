@@ -29,6 +29,8 @@ public class Interacciones {
 		
 		//Click()
 		driver_firefox.findElement(By.id("nav-hamburger-menu")).click();
+		
+		//Submit() ya no es valido.
 	}
 
 }
